@@ -1,0 +1,55 @@
+ 
+<!-- <app-home [name]="hii"></app-home> -->
+
+<div class="container-fluid">
+   
+    <div class="col-md-4 offset-md-4">
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+        <form>
+         
+            <div class="card">
+             
+                  
+                       
+                    
+               
+                <div class="card-body">
+                    <h3 class="text-dark">User Form</h3>
+                    <div class="form-group">
+                        <label for="">Id </label>
+                        <input type="text" [(ngModel)]="user.id" name="id" class="form-control" placeholder=" " >
+                    </div>
+                    <div class="form-group">
+                        <label for="">Name </label>
+                        <input type="text" [(ngModel)]="user.firstName" name="first" class="form-control" placeholder=" " >
+                    </div>
+                    <div class="form-group">
+                        <label for="">Age </label>
+                        <input type="text" [(ngModel)]="user.age" name="age" class="form-control"  placeholder=" " >
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="">Gender </label>
+                        <input type="text" [(ngModel)]="user.gender" name="gender" class="form-control"  placeholder=" " >
+                    </div>
+                    <div class="form-group">
+                        <label for="">Phone </label>
+                        <input id="n" type="text" [(ngModel)]="user.phone" name="phone" class="form-control" placeholder=" " > 
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email </label>
+                        <input id="n" type="text" [(ngModel)]="user.email" name="email" class="form-control" placeholder=" " > 
+                    </div>
+   
+                     
+        <div class="pt-3"></div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success   text-center">Submit</button>
+           </div>
+                </div>
+            </div>
+        </form>
+        <div class="pt-5"></div>
+    </div>
+</div>
